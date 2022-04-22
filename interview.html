@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futures</title>
+    <meta name="description" content="○○○○○○○○">
+    <meta name="keywords" content="○○○○○○○○○">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Futures">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="○○○○○○○">
+    <meta property="og:image" content="img/favicon.ico">
+    <meta property="og:description" content="Futures">
+    <meta property="og:site-name" content="Futures">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180×180" href="icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/aos.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/common.css">
+  </head>
+
+  <body>
+    <div id="wrap">
+      <header class="header">
+        <div class="main-menu">
+          <div class="header-logo">
+            <a href="index.html">FUTURES</a>
+            <a href="index.html">中途採用サイト2023</a>
+          </div>
+          <div class="nav-wrapper">
+            <nav class="header-nav">
+              <ul class="nav-list">
+                <li class="nav-item"><a href="#service">募集要項</a></li>
+                <li class="nav-item"><a href="#voice">スケジュール</a></li>
+                <li class="nav-item"><a href="column">インタビュー</a></li>
+                <li class="nav-item"><a href="#material">よくある質問</a></li>
+                <li>
+                  <a href="#" class="nav-item entry-btn">
+                    ENTRY
+                    <span class="arrow"></span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="menu-btn" onclick="menuClick(this)">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="menu" onclick="menuClose()">
+          <div><a href="#service">サービス内容</a></div>
+          <div><a href="#voice">事例紹介</a></div>
+          <div><a href="#">コラム</a></div>
+          <div><a href="#material">お役立ち資料</a></div>
+          <div><a href="https://airz.co.jp/">会社情報</a></div>
+          <div><a href="./whitepaper-form.html">資料ダウンロード</a></div>
+          <div><a href="./inquiry-form.html">お問い合わせ</a></div>
+      </div>  
+      </header>
+
+      <main>
+        <section id="top" class="section-top">
+          <div class="banner-img">
+            <img src="./assets/img/banner-interview.png" alt="">
+          </div>
+        </section>
+        <section class="section-schedule">
+          <div class="banner-text">
+            INTERVIEW
+          </div>
+          <div class="interview-container">
+            <h1 data-aos="fade-up" data-aos-duration="1500">インタビュー</h1>
+            <p data-aos="fade-up" data-aos-duration="1500">
+              先輩社員にインタビュー<br>
+              これから一緒に働く方たちへ
+            </p>
+          </div>
+        </section>
+        <section class="section-member interview">
+          <div class="wrapper">
+            <div class="member-card" data-aos="fade-up" data-aos-duration="1500">
+              <img src="./assets/img/system-engineer3.png" alt="">
+              <div class="member-profile">
+                <div class="job">
+                  <p>システムエンジニア</p>
+                  <p>2015入社</p>
+                </div>
+                <div class="name">
+                  <p>TARO OSAKA</p>
+                  <p>大阪　太郎</p>
+                </div>
+              </div>
+              <div>
+                <h5 data-aos="fade-up" data-aos-duration="1500">SYSTEM ENGINER</h5>
+                <a href="#" class="more-btn" data-aos="fade-up" data-aos-duration="1500">
+                  MORE
+                  <span class="arrow"></span>
+                </a>
+              </div>
+            </div>
+            <div class="member-card" data-aos="fade-up" data-aos-duration="1500">
+              <img src="./assets/img/web-designer3.png" alt="">
+              <div class="member-profile">
+                <div class="job">
+                  <p>WEBデザイナー</p>
+                  <p>2015入社</p>
+                </div>
+                <div class="name">
+                  <p>HANAKO YAMADA</p>
+                  <p>山田　花子</p>
+                </div>
+              </div>
+              <div>
+                <h5 data-aos="fade-up" data-aos-duration="1500">WEB DESIGNER</h5>
+                <a href="#" class="more-btn" data-aos="fade-up" data-aos-duration="1500">
+                  MORE
+                  <span class="arrow"></span>
+                </a>  
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-intro">
+          <div class="intro-banner left" data-aos="fade-left" data-aos-duration="1500">
+            <div>
+              <h3 class="font-black">
+                自分でつくる働き方で<br>
+                のびのびとやっています！
+              </h3>
+              <p>
+                システムエンジニア
+              </p>
+              <h2 class="font-black">
+                大阪 太郎
+              </h2>
+            </div>
+            <div>
+              <img src="./assets/img/intro-img1.png" alt="">
+            </div>
+          </div>
+          <div class="container">
+            <div class="intro-text">
+              <div class="intro-title" data-aos="fade-up" data-aos-duration="1500">
+                入社のきっかけは？
+              </div>
+              <p data-aos="fade-up" data-aos-duration="1500">
+                さまざまな業種、多種多様なシステム開発に携われるということを聞いていました。<br>
+                自分の成長やスキルアップにも繋がると思い志望しました。<br>
+                仕事は開発がメインですが、本当に自分にシステム開発ができるのか不安でしたが、先輩のサポートがしっかりしていて、最初の不安もすぐになくなり、すぐに業務に慣れることができました。
+              </p>
+            </div>
+          </div>
+          <div class="intro-img" data-aos="fade-right" data-aos-duration="1500">
+            <img src="./assets/img/intro-img2.png" alt="">
+          </div>
+          <div class="container">
+            <div class="intro-text">
+              <div class="intro-title" data-aos="fade-up" data-aos-duration="1500">
+                仕事のやりがいは？
+              </div>
+              <p data-aos="fade-up" data-aos-duration="1500">
+                もうすぐ入社して5年になりますが、先輩に頼ってばかりの1年目の自分よりは遥かに成長してることを実感しています。<br>
+                入社してから今までいろんなプロジェクトに携わって、自由な発想で型に捉われずある程度自分で作っていかなければならない面白さがあるのも楽しいです。<br>
+                今度はそろそろ自分も後輩に教えられる先輩になろうと思っています！
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div class="schedule-sep">
+          <img src="./assets/img/sep-icon.png" alt="">
+        </div>
+
+        <section class="section-intro">
+          <div class="intro-banner left" data-aos="fade-right" data-aos-duration="1500">
+            <div>
+              <h3 class="font-black">
+                明るい雰囲気の社内で<br>
+                いつも楽しく働いています。
+              </h3>
+              <p>
+                WEBデザイナー
+              </p>
+              <h2 class="font-black">
+                山田 花子
+              </h2>
+            </div>
+            <div>
+              <img src="./assets/img/intro-img3.png" alt="">
+            </div>
+          </div>
+          <div class="container">
+            <div class="intro-text">
+              <div class="intro-title" data-aos="fade-up" data-aos-duration="1500">
+                入社のきっかけは？
+              </div>
+              <p data-aos="fade-up" data-aos-duration="1500">
+                さまざまな業種、企業のデザインに携われるということを聞いて、自分の成長やスキルアップにも繋がるし、どんな案件に携われるのかとても楽しみでした。<br>
+                この会社はミーティングやヒアリングなどで、先輩のサポートがとてもしっかりしている、一人で不安になり悩む時間などもほとんどないと言うのも聞き、とても魅力的に感じて入社してみようと背中を押された感じでした。
+              </p>
+            </div>
+          </div>
+          <div class="intro-img" data-aos="fade-left" data-aos-duration="1500">
+            <img src="./assets/img/intro-img4.png" alt="">
+          </div>
+          <div class="container">
+            <div class="intro-text">
+              <div class="intro-title" data-aos="fade-up" data-aos-duration="1500">
+                仕事のやりがいは？
+              </div>
+              <p data-aos="fade-up" data-aos-duration="1500">
+                入社して7年、私もそろそろ中堅になってきました。どんな案件にも迷うことなく取り組むことが出来るようになり、次はどんな案件が来て、どんなデザインに挑戦出来るのかな？と、ワクワクすることもよくあります。<br>
+                それでも、躓くこともありますが、社内でのサポート体制によってアイデアを貰えたり、助けられながら、日々成長しています。そして、明るい雰囲気でとても働きやすい職場ですよ！
+              </p>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <!-- footer -->
+      <footer>
+        <div class="footer-top">
+          <div class="footer-title">
+            CREATE THE FUTURE
+          </div>
+          <div class="footer-subtitle">
+            挑戦するあなたを応援します。
+          </div>
+          <a href="#" class="entry-btn color-white">
+            ENTRY
+            <span class="arrow"></span>
+          </a>
+        </div>
+        <div class="footer-btm">
+          <div class="wrapper">
+            <div class="container">
+              <a href="#" class="back-to-top">
+                <img src="./assets/img/to_top.svg" alt="">
+              </a>
+              <div class="footer-social">
+                <div>FOLLOW US</div>
+                <div class="minuse"></div>
+                <div class="social-buttons">
+                  <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i>
+                  <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>    
+                </div>
+              </div>
+              <div class="nav-wrapper">
+                <nav class="header-nav">
+                  <ul class="nav-list">
+                    <li class="nav-item"><a href="#service">募集要項</a></li>
+                    <li class="nav-item"><a href="#voice">スケジュール</a></li>
+                    <li class="nav-item"><a href="column">インタビュー</a></li>
+                    <li class="nav-item"><a href="#material">よくある質問</a></li>
+                    <li class="nav-item"><a href="#material">コーポレートサイト</a></li>
+                  </ul>
+                </nav>
+              </div>    
+            </div>
+          </div>  
+        </div>
+        <p>&copy; FUTURES CO.LTD ALL RIGHTS RESERVED.</p>
+      </footer>
+
+    </div>
+    <!-- JavaScript読み込み -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: true,
+        },
+      });
+    </script>
+
+    <script src="./assets/scripts/aos.js"></script>
+    <script src="./assets/scripts/main.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futures</title>
+    <meta name="description" content="○○○○○○○○">
+    <meta name="keywords" content="○○○○○○○○○">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Futures">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="○○○○○○○">
+    <meta property="og:image" content="img/favicon.ico">
+    <meta property="og:description" content="Futures">
+    <meta property="og:site-name" content="Futures">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180×180" href="icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/aos.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/common.css">
+  </head>
+
+  <body>
+    <div id="wrap">
+      <header class="header">
+        <div class="main-menu">
+          <div class="header-logo">
+            <a href="index.html">FUTURES</a>
+            <a href="index.html">中途採用サイト2023</a>
+          </div>
+          <div class="nav-wrapper">
+            <nav class="header-nav">
+              <ul class="nav-list">
+                <li class="nav-item"><a href="recruit.html">募集要項</a></li>
+                <li class="nav-item"><a href="schedule.html">スケジュール</a></li>
+                <li class="nav-item"><a href="index.html">インタビュー</a></li>
+                <li class="nav-item"><a href="faq.html">よくある質問</a></li>
+                <li>
+                  <a href="entry.html" class="nav-item entry-btn">
+                    ENTRY
+                    <span class="arrow"></span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="menu-btn" onclick="menuClick(this)">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="menu" onclick="menuClose()">
+          <div class="header-logo">
+            <a href="index.html">FUTURES</a>
+            <a href="index.html">中途採用サイト2023</a>
+          </div>
+          <div><a href="recruit.html">募集要項</a></div>
+          <div><a href="schedule.html">スケジュール</a></div>
+          <div><a href="interview.html">インタビュー</a></div>
+          <div><a href="faq.html">よくある質問</a></div>
+          <div><a href="#">コーポレートサイト</a></div>
+          <div>
+            <a href="entry.html" class="entry-btn color-white">
+              ENTRY
+              <span class="arrow"></span>
+            </a>
+          </div>
+        </div>
+      </div>  
+      </header>
+
+      <main>
+        <section id="top" class="section-top">
+          <div class="banner-img pc">
+            <img src="./assets/img/banner-recruit.png" alt="">
+          </div>
+          <div class="banner-img sp">
+            <img src="./assets/img/banner-recruit-sp.png" alt="">
+          </div>
+        </section>
+        <section class="section-application">
+          <div class="banner-text">
+            RECURIT<br>
+            INFO
+          </div>
+          <div class="application-container">
+            <h1 data-aos="fade-up" data-aos-duration="1500">募集要項</h1>
+            <p data-aos="fade-up" data-aos-duration="1500">
+              条件や待遇が合うかどうかをよく見て下さい。<br>
+              あなたがやりたい仕事に就けるよう、<br>
+              FUTURESは常に環境を見直しています。
+            </p>
+          </div>
+        </section>
+        <section class="section-member">
+          <div class="wrapper">
+            <div class="member-card" data-aos="fade-up" data-aos-duration="1500">
+              <img src="./assets/img/system-engineer2.png" alt="">
+              <div data-aos="fade-up" data-aos-duration="1500">
+                <h5 class="font-black">システムエンジニア</h5>
+                <p>
+                  多様なプロジェクトなど幅広く挑戦できる環境です！<br>
+                  自社ソフトウェア設計・開発をお任せ致します。
+                </p>
+                <a href="#" class="more-btn">
+                  MORE
+                  <span class="arrow"></span>
+                </a>  
+              </div>
+            </div>
+            <div class="member-card" data-aos="fade-up" data-aos-duration="1500">
+              <img src="./assets/img/web-designer2.png" alt="">
+              <div data-aos="fade-up" data-aos-duration="1500">
+                <h5 class="font-black">WEBデザイナー</h5>
+                <p>
+                  あなたのアイデア、センスを活かせます！<br>
+                  先輩のサポートを受けながら、デザインスキルを高めていくことも可能な職場です。
+                </p>
+                <a href="#" class="more-btn">
+                  MORE
+                  <span class="arrow"></span>
+                </a>  
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-summary">
+          <h2 class="font-black" data-aos="fade-up" data-aos-duration="1500">募集概要</h2>
+          <div class="summary-wrapper" data-aos="fade-up" data-aos-duration="1500">
+            <div class="summary-container">
+              <div class="summary-row summary-header">
+                <h3 class="font-black">システムエンジニア</h3>
+                <p>SYSTEM ENGINEER</p>
+              </div>
+              <div class="summary-row" data-aos="fade-up" data-aos-duration="1500">
+                <div class="summary-title">
+                  <p>勤務地</p>
+                </div>
+                <div class="summary-content">
+                  <p>東京都、神奈川県</p><br>
+                  <p>
+                    ・転勤なし<br>
+                    ・UIターンも歓迎<br>
+                    ・案件に応じ在宅勤務あり
+                  </p>
+                </div>
+              </div>
+              <div class="summary-row" data-aos="fade-up" data-aos-duration="1500">
+                <div class="summary-title">
+                  <p>求める人材</p>
+                </div>
+                <div class="summary-content">
+                  <p>プログラミング、エンジニア業務が好きの方！</p><br>
+                  <p>
+                    ・Webサーバの設計、構築、運用経験<br>
+                    ・Python、PHP、Ruby、.NET 等でのWebサービス設計、構築、運用経験<br>
+                    ・MySQL等のSQLサーバのDB設計、構築、運用経験<br>
+                    ・G検定合格レベルのAI・ディープラーニングに関する知識<br>
+                    ・Git等によるバージョン管理の基礎知識・経験<br>
+                    ・課題に応じた技術選定、実装ができる方<br>
+                    ・チームによる開発経験（Git等によるバージョン管理、CI運用、コードレビュー)<br>
+                    ・業務システムの運用経験<br>
+                    ・Linuxサーバ、OSSミドルウェア、OSSアプリの導入、運用の実務経験
+                  </p><br>
+                  <p>上記のいずれかの経験・知識をお持ちの方</p>
+                </div>
+              </div>
+              <div class="summary-row" data-aos="fade-up" data-aos-duration="1500">
+                <div class="summary-title">
+                  <p>給与</p>
+                </div>
+                <div class="summary-content">
+                  <p>プログラミング、エンジニア業務が好きの方！</p><br>
+                  <p>
+                    月給：25万4000円～82万3000円<br><br>
+                    ※経験・能力を考慮の上、当社規定により優遇致します。<br><br>
+                    各種手当あり。<br><br>
+                    賞与：年2回<br>
+                  </p>
+                </div>
+              </div>
+              <div class="summary-row" data-aos="fade-up" data-aos-duration="1500">
+                <div class="summary-title">
+                  <p>勤務時間</p>
+                </div>
+                <div class="summary-content">
+                  <p>
+                    10:00～19:00 (休憩:1時間)<br><br>
+                    ※事前申請許可制による在宅勤務・フレックス勤務OK
+                  </p>
+                </div>
+              </div>
+              <div class="summary-row" data-aos="fade-up" data-aos-duration="1500">
+                <div class="summary-title">
+                  <p>休日・休暇</p>
+                </div>
+                <div class="summary-content">
+                  <p>
+                    完全週休2日制（土・日）・祝日<br>
+                    夏季休暇<br>
+                    年末年始休暇<br>
+                    年次有給休暇<br>
+                    慶弔休暇
+                  </p>
+                </div>
+              </div>
+              <div class="summary-row" data-aos="fade-up" data-aos-duration="1500">
+                <div class="summary-title">
+                  <p>待遇・福利厚生</p>
+                </div>
+                <div class="summary-content">
+                  <p>
+                    試用期間：3ヶ月<br><br>
+                    昇給年1回 / 賞与年2回<br>
+                    交通費全額支給<br>
+                    家族手当<br>
+                    住宅手当<br><br>
+                    厚生年金<br>
+                    雇用保険<br>
+                    労災保険<br>
+                    健康保険（関東ITソフトウェア健保）
+                  </p>
+                </div>
+              </div>
+              <a href="#" class="entry-btn color-white">
+                ENTRY
+                <span class="arrow"></span>
+              </a>    
+            </div>
+          </div>
+          <div class="summary-wrapper" data-aos="fade-up" data-aos-duration="1500">
+            <div class="summary-container">
+              <div class="summary-row summary-header">
+                <h3 class="font-black">WEBデザイナー</h3>
+                <p>WEB DESIGNER</p>
+              </div>
+              <div class="summary-row" data-aos="fade-up" data-aos-duration="1500">
+                <div class="summary-title">
+                  <p>勤務地</p>
+                </div>
+                <div class="summary-content">
+                  <p>
+                    東京都、神奈川県<br>
+                    ・転勤なし<br>
+                    ・UIターンも歓迎<br>
+                    ・案件に応じ在宅勤務あり
+                  </p>
+                </div>
+              </div>
+              <div class="summary-row" data-aos="fade-up" data-aos-duration="1500">
+                <div class="summary-title">
+                  <p>求める人材</p>
+                </div>
+                <div class="summary-content">
+                  <p>
+                    ・Photoshop/Illustrator<br>
+                      上記ソフトのスキル使用経験がある方<br>
+                    （ポートフォリオの提出いただける方）<br><br>
+                    [ 下記優遇 ]<br>
+                    ・WordPressの使用経験<br>
+                    ・WEB制作経験<br>
+                    ・動画制作経験<br>
+                    ・イラストが描ける<br>
+                    ・ディレクション経験<br>
+                    ・サイト運用経験<br>
+                    ・企画書作成経験<br>
+                    ・事務経験<br>
+                    ・その他Adobe製品の使用経験
+                  </p>
+                </div>
+              </div>
+              <div class="summary-row" data-aos="fade-up" data-aos-duration="1500">
+                <div class="summary-title">
+                  <p>給与</p>
+                </div>
+                <div class="summary-content">
+                  <p>
+                    月給：25万4000円～82万3000円<br><br>
+                    ※経験・能力を考慮の上、当社規定により優遇致します。<br>
+                    各種手当あり。<br>
+                    賞与：年2回
+                  </p>
+                </div>
+              </div>
+              <div class="summary-row" data-aos="fade-up" data-aos-duration="1500">
+                <div class="summary-title">
+                  <p>勤務時間</p>
+                </div>
+                <div class="summary-content">
+                  <p>
+                    10:00～19:00 (休憩:1時間)<br><br>
+                    ※事前申請許可制による在宅勤務・フレックス勤務OK
+                  </p>
+                </div>
+              </div>
+              <div class="summary-row" data-aos="fade-up" data-aos-duration="1500">
+                <div class="summary-title">
+                  <p>休日・休暇</p>
+                </div>
+                <div class="summary-content">
+                  <p>
+                    完全週休2日制（土・日）・祝日<br>
+                    夏季休暇<br>
+                    年末年始休暇<br>
+                    年次有給休暇<br>
+                    慶弔休暇
+                  </p>
+                </div>
+              </div>
+              <div class="summary-row" data-aos="fade-up" data-aos-duration="1500">
+                <div class="summary-title">
+                  <p>待遇・福利厚生</p>
+                </div>
+                <div class="summary-content">
+                  <p>
+                    試用期間：3ヶ月<br><br>
+                    昇給年1回 / 賞与年2回<br>
+                    交通費全額支給<br>
+                    家族手当<br>
+                    住宅手当<br><br>
+                    厚生年金<br>
+                    雇用保険<br>
+                    労災保険<br>
+                    健康保険（関東ITソフトウェア健保）
+                  </p>
+                </div>
+              </div>
+              <a href="#" class="entry-btn color-white">
+                ENTRY
+                <span class="arrow"></span>
+              </a>    
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- footer -->
+      <footer>
+        <div class="footer-top">
+          <div class="footer-title">
+            CREATE THE FUTURE
+          </div>
+          <div class="footer-subtitle">
+            挑戦するあなたを応援します。
+          </div>
+          <a href="#" class="entry-btn color-white">
+            ENTRY
+            <span class="arrow"></span>
+          </a>
+        </div>
+        <div class="footer-btm">
+          <div class="wrapper">
+            <div class="container">
+              <a href="#" class="back-to-top">
+                <img src="./assets/img/to_top.svg" alt="">
+              </a>
+              <div class="footer-social">
+                <div>FOLLOW US</div>
+                <div class="minuse"></div>
+                <div class="social-buttons">
+                  <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i>
+                  <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>    
+                </div>
+              </div>
+              <div class="nav-wrapper">
+                <nav class="header-nav">
+                  <ul class="nav-list">
+                    <li class="nav-item"><a href="#service">募集要項</a></li>
+                    <li class="nav-item"><a href="#voice">スケジュール</a></li>
+                    <li class="nav-item"><a href="column">インタビュー</a></li>
+                    <li class="nav-item"><a href="#material">よくある質問</a></li>
+                    <li class="nav-item"><a href="#material">コーポレートサイト</a></li>
+                  </ul>
+                </nav>
+              </div>    
+            </div>
+          </div>  
+        </div>
+        <p>&copy; FUTURES CO.LTD ALL RIGHTS RESERVED.</p>
+      </footer>
+
+    </div>
+    <!-- JavaScript読み込み -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: true,
+        },
+      });
+    </script>
+
+    <script src="./assets/scripts/aos.js"></script>
+    <script src="./assets/scripts/main.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
